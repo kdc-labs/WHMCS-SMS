@@ -11,7 +11,7 @@ Installation
 * After saving changes, give privigle to admin groups that you want at same page.
 * Go to Menu->Setup->Custom Client Fields
 * Add a field: name=Send Sms, type= Tick box, Show on Order Form=check. (This field will be shown at register page. If user do not check this field, SMS will not send to this user)
-* Add a field: name=GSM Number, type=Text Box, Show on Order Form=check. (This field will be shown at register page. Sms will send to this value that user fills.)
+* Add a field: name=GSM Number, type=Text Box, Show on Order Form=check. (This field will be shown at register page. Sms will send to this value that user fills.) IN CASE your selling country is INDIA, you can use the RegEx Value as /^91[789]{1}\d{9}$/
 
 * Enter Menu->Addons->Aktuel Sms
 * Write WHMCS Path and Select SMS Gateway. Write your api details.
